@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #000;
+  
+}
+
+.container {
+  border: 5px solid rgb(71, 67, 67);
+
+  width: 30vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3%;
+  padding: 3%;
+}
+.container:hover {
+  border: 5px solid turquoise;
+  box-shadow: 0 0 20px turquoise, inset 0 0 20px turquoise;
+  transition: 0.5s;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+.container:hover h1 {
+  color: turquoise;
+}
+
+.input {
+  /* border: 1px solid black; */
+  width: 85%;
+  margin: 5% 0;
+  position: relative;
+}
+
+.input input {
+  border: 2px solid #333;
+  width: 100%;
+  height: 5vh;
+  background: transparent;
+  border: 2px solid #333;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0 10px 0 35px;
+  transition: 0.5s;
+}
+
+.container:hover .input input {
+  border: 2px solid turquoise;
+  box-shadow: 0 0 20px turquoise, inset 0 0 20px turquoise;
+  transition: 0.5s;
+}
+
+.input input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.input .icon {
+  position: absolute;
+  padding-top: 3%;
+  padding-left: 4%;
+  /* border: 1px solid #333; */
+  font-size: 1.2rem;
+  top: 1%;
+  color: #fff;
+
+}
+.container:hover .input icon {
+  border: 2px solid turquoise;
+  color: turquoise;
+}
+
+.forgot {
+  margin-top: -1%;
+}
+
+.forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.forgot a:hover {
+  text-decoration: underline;
+}
+
+.submit {
+  width: 100%;
+  height: 5vh;
+  background-color: #333;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.container:hover .submit {
+  border: 2px solid turquoise;
+  color: #fff;
+  background-color: turquoise;
+}
+
+.register {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: auto;
+}
+
+.container:hover .register{
+    color: turquoise;
+}
+
+.register p {
+  color: #fff;
+}
+
+.register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.container:hover .register p a{
+    color: turquoise;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
